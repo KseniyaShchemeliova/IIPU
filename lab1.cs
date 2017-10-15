@@ -1,0 +1,1 @@
+lspci -vmm |grep "Vendor\|Device" |grep -v "SVendor\|SDevise"
